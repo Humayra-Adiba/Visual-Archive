@@ -28,7 +28,7 @@ const Header = () => {
         </button>
       </div>
       <button
-        className="px-8 bg-slate-800 text-white text-base uppercase font-bold py-4 rounded-xl hover:bg-slate-700 active:translate-y-0.5"
+        className="px-8 bg-pink-800 text-white transition-all duration-100 hover:scale-110 text-base uppercase font-bold py-4 rounded-xl hover:bg-pink-400 active:translate-y-0.5"
         onClick={open}
       >
         Upload

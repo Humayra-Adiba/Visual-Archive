@@ -20,8 +20,8 @@ export const Popup: FC<Props> = ({ submit, close }) => {
   };
 
   return (
-    <div className="w-full h-screen flex justify-center items-center absolute top-0 left-0 bg-slate-900/50 z-50 ">
-      <div className="w-full max-w-md bg-slate-100 p-5 rounded space-y-2.5 border border-orange-600 border-[2px]">
+    <div className="w-full h-screen flex justify-center items-center absolute top-0 left-0  z-50 ">
+      <div className="w-full max-w-md bg-slate-100 p-5 rounded space-y-2.5 border border-orange-600 shadow-lg">
         <div className="flex justify-between items-center gap-2.5 p-2">
           <h1 className="font-semibold text-[20px]">Add new Image</h1>
           <button onClick={close} className="active:translate-y-0.5 w-16">
@@ -52,7 +52,7 @@ export const Popup: FC<Props> = ({ submit, close }) => {
 
         <button
           onClick={handleSubmit}
-          className="w-full bg-green-600 text-white text-base uppercase font-bold py-2.5 rounded-md hover:bg-green-400 active:translate-y-0.5"
+          className="w-full bg-teal-600 text-white text-base uppercase font-bold py-2.5 rounded-md hover:bg-green-400 active:translate-y-0.5"
         >
           Upload
         </button>
